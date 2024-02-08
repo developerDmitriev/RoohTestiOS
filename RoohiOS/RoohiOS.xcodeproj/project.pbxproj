@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		C92DB5B52B7538AA00E19C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B42B7538AA00E19C75 /* AppDelegate.swift */; };
 		C92DB5B72B7538AA00E19C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B62B7538AA00E19C75 /* SceneDelegate.swift */; };
-		C92DB5B92B7538AA00E19C75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B82B7538AA00E19C75 /* ViewController.swift */; };
-		C92DB5BC2B7538AA00E19C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92DB5BA2B7538AA00E19C75 /* Main.storyboard */; };
+		C92DB5B92B7538AA00E19C75 /* CreateProfileViewController.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift.swift */; };
 		C92DB5BE2B7538AC00E19C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92DB5BD2B7538AC00E19C75 /* Assets.xcassets */; };
 		C92DB5C12B7538AC00E19C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92DB5BF2B7538AC00E19C75 /* LaunchScreen.storyboard */; };
 		C92DB5CC2B7538AC00E19C75 /* RoohiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5CB2B7538AC00E19C75 /* RoohiOSTests.swift */; };
 		C92DB5D62B7538AC00E19C75 /* RoohiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5D52B7538AC00E19C75 /* RoohiOSUITests.swift */; };
 		C92DB5D82B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5D72B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift */; };
+		C9F391D42B753F55007D5FFE /* CreateProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391D32B753F55007D5FFE /* CreateProfileModel.swift */; };
+		C9F391D72B755EE3007D5FFE /* ImagesArray.json in Sources */ = {isa = PBXBuildFile; fileRef = C9F391D62B755EE3007D5FFE /* ImagesArray.json */; };
+		C9F391DA2B755F4B007D5FFE /* AvatarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391D92B755F4B007D5FFE /* AvatarService.swift */; };
+		C9F391DC2B755F8C007D5FFE /* ProfileAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391DB2B755F8C007D5FFE /* ProfileAvatar.swift */; };
+		C9F391DD2B7577B7007D5FFE /* ImagesArray.json in Resources */ = {isa = PBXBuildFile; fileRef = C9F391D62B755EE3007D5FFE /* ImagesArray.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,7 @@
 		C92DB5B12B7538AA00E19C75 /* RoohiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoohiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92DB5B42B7538AA00E19C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C92DB5B62B7538AA00E19C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C92DB5B82B7538AA00E19C75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C92DB5BB2B7538AA00E19C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift.swift; sourceTree = "<group>"; };
 		C92DB5BD2B7538AC00E19C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92DB5C02B7538AC00E19C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92DB5C22B7538AC00E19C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,10 @@
 		C92DB5D12B7538AC00E19C75 /* RoohiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoohiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92DB5D52B7538AC00E19C75 /* RoohiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoohiOSUITests.swift; sourceTree = "<group>"; };
 		C92DB5D72B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoohiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9F391D32B753F55007D5FFE /* CreateProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileModel.swift; sourceTree = "<group>"; };
+		C9F391D62B755EE3007D5FFE /* ImagesArray.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ImagesArray.json; sourceTree = "<group>"; };
+		C9F391D92B755F4B007D5FFE /* AvatarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarService.swift; sourceTree = "<group>"; };
+		C9F391DB2B755F8C007D5FFE /* ProfileAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAvatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +106,10 @@
 		C92DB5B32B7538AA00E19C75 /* RoohiOS */ = {
 			isa = PBXGroup;
 			children = (
-				C92DB5B42B7538AA00E19C75 /* AppDelegate.swift */,
-				C92DB5B62B7538AA00E19C75 /* SceneDelegate.swift */,
-				C92DB5B82B7538AA00E19C75 /* ViewController.swift */,
-				C92DB5BA2B7538AA00E19C75 /* Main.storyboard */,
-				C92DB5BD2B7538AC00E19C75 /* Assets.xcassets */,
-				C92DB5BF2B7538AC00E19C75 /* LaunchScreen.storyboard */,
-				C92DB5C22B7538AC00E19C75 /* Info.plist */,
+				C92DB5E42B75394000E19C75 /* App */,
+				C9F391D82B755F0F007D5FFE /* Services */,
+				C92DB5E62B7539A200E19C75 /* Screens */,
+				C92DB5E52B75398F00E19C75 /* Resources */,
 			);
 			path = RoohiOS;
 			sourceTree = "<group>";
@@ -125,6 +129,60 @@
 				C92DB5D72B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift */,
 			);
 			path = RoohiOSUITests;
+			sourceTree = "<group>";
+		};
+		C92DB5E42B75394000E19C75 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C92DB5B42B7538AA00E19C75 /* AppDelegate.swift */,
+				C92DB5B62B7538AA00E19C75 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C92DB5E52B75398F00E19C75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391D52B755EB6007D5FFE /* JsonData */,
+				C92DB5BD2B7538AC00E19C75 /* Assets.xcassets */,
+				C92DB5BF2B7538AC00E19C75 /* LaunchScreen.storyboard */,
+				C92DB5C22B7538AC00E19C75 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C92DB5E62B7539A200E19C75 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C92DB5E72B7539AA00E19C75 /* CreateProfile */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C92DB5E72B7539AA00E19C75 /* CreateProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift.swift */,
+				C9F391D32B753F55007D5FFE /* CreateProfileModel.swift */,
+				C9F391DB2B755F8C007D5FFE /* ProfileAvatar.swift */,
+			);
+			path = CreateProfile;
+			sourceTree = "<group>";
+		};
+		C9F391D52B755EB6007D5FFE /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391D62B755EE3007D5FFE /* ImagesArray.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+		C9F391D82B755F0F007D5FFE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391D92B755F4B007D5FFE /* AvatarService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F391DD2B7577B7007D5FFE /* ImagesArray.json in Resources */,
 				C92DB5C12B7538AC00E19C75 /* LaunchScreen.storyboard in Resources */,
 				C92DB5BE2B7538AC00E19C75 /* Assets.xcassets in Resources */,
-				C92DB5BC2B7538AA00E19C75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C92DB5B92B7538AA00E19C75 /* ViewController.swift in Sources */,
+				C9F391DA2B755F4B007D5FFE /* AvatarService.swift in Sources */,
+				C9F391DC2B755F8C007D5FFE /* ProfileAvatar.swift in Sources */,
+				C92DB5B92B7538AA00E19C75 /* CreateProfileViewController.swift.swift in Sources */,
+				C9F391D42B753F55007D5FFE /* CreateProfileModel.swift in Sources */,
+				C9F391D72B755EE3007D5FFE /* ImagesArray.json in Sources */,
 				C92DB5B52B7538AA00E19C75 /* AppDelegate.swift in Sources */,
 				C92DB5B72B7538AA00E19C75 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +359,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C92DB5BA2B7538AA00E19C75 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C92DB5BB2B7538AA00E19C75 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C92DB5BF2B7538AC00E19C75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -444,12 +498,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6ZBBJJ3996;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RoohiOS/Info.plist;
+				INFOPLIST_FILE = RoohiOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,12 +526,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6ZBBJJ3996;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RoohiOS/Info.plist;
+				INFOPLIST_FILE = RoohiOS/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
