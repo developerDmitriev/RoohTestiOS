@@ -9,17 +9,33 @@
 /* Begin PBXBuildFile section */
 		C92DB5B52B7538AA00E19C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B42B7538AA00E19C75 /* AppDelegate.swift */; };
 		C92DB5B72B7538AA00E19C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B62B7538AA00E19C75 /* SceneDelegate.swift */; };
-		C92DB5B92B7538AA00E19C75 /* CreateProfileViewController.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift.swift */; };
+		C92DB5B92B7538AA00E19C75 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift */; };
 		C92DB5BE2B7538AC00E19C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92DB5BD2B7538AC00E19C75 /* Assets.xcassets */; };
 		C92DB5C12B7538AC00E19C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92DB5BF2B7538AC00E19C75 /* LaunchScreen.storyboard */; };
 		C92DB5CC2B7538AC00E19C75 /* RoohiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5CB2B7538AC00E19C75 /* RoohiOSTests.swift */; };
 		C92DB5D62B7538AC00E19C75 /* RoohiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5D52B7538AC00E19C75 /* RoohiOSUITests.swift */; };
 		C92DB5D82B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5D72B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift */; };
+		C997F9432B76655B002C929D /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C997F9422B76655B002C929D /* ProfileModel.swift */; };
+		C997F9452B7665EB002C929D /* String + base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = C997F9442B7665EB002C929D /* String + base64.swift */; };
+		C9BBC4D42B79F38C007E2907 /* WatchConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC4D32B79F38C007E2907 /* WatchConnectivityProvider.swift */; };
+		C9BBC4D72B79F4E0007E2907 /* PhoneConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC4D62B79F4E0007E2907 /* PhoneConnectivityProvider.swift */; };
+		C9D54E6C2B782B6E00C7DA26 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D54E6B2B782B6E00C7DA26 /* WatchConnector.swift */; };
 		C9F391D42B753F55007D5FFE /* CreateProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391D32B753F55007D5FFE /* CreateProfileModel.swift */; };
 		C9F391D72B755EE3007D5FFE /* ImagesArray.json in Sources */ = {isa = PBXBuildFile; fileRef = C9F391D62B755EE3007D5FFE /* ImagesArray.json */; };
 		C9F391DA2B755F4B007D5FFE /* AvatarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391D92B755F4B007D5FFE /* AvatarService.swift */; };
 		C9F391DC2B755F8C007D5FFE /* ProfileAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391DB2B755F8C007D5FFE /* ProfileAvatar.swift */; };
 		C9F391DD2B7577B7007D5FFE /* ImagesArray.json in Resources */ = {isa = PBXBuildFile; fileRef = C9F391D62B755EE3007D5FFE /* ImagesArray.json */; };
+		C9F391E02B7579F5007D5FFE /* String + base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391DF2B7579F5007D5FFE /* String + base64.swift */; };
+		C9F391E22B757A96007D5FFE /* CreateProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391E12B757A96007D5FFE /* CreateProfilePresenter.swift */; };
+		C9F391E52B757C26007D5FFE /* CreateProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391E42B757C26007D5FFE /* CreateProfileConfigurator.swift */; };
+		C9F391EB2B757DE5007D5FFE /* AvatarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391EA2B757DE5007D5FFE /* AvatarCollectionView.swift */; };
+		C9F391ED2B757F17007D5FFE /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391EC2B757F17007D5FFE /* AvatarCollectionViewCell.swift */; };
+		C9F391F22B758119007D5FFE /* NameDescribable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391F12B758119007D5FFE /* NameDescribable.swift */; };
+		C9F391FA2B7640CA007D5FFE /* RoohWatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391F92B7640CA007D5FFE /* RoohWatchOSApp.swift */; };
+		C9F391FC2B7640CA007D5FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F391FB2B7640CA007D5FFE /* ContentView.swift */; };
+		C9F391FE2B7640CD007D5FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F391FD2B7640CD007D5FFE /* Assets.xcassets */; };
+		C9F392012B7640CD007D5FFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F392002B7640CD007D5FFE /* Preview Assets.xcassets */; };
+		C9F392052B7640CD007D5FFE /* RoohWatchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C9F391F72B7640CA007D5FFE /* RoohWatchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +53,34 @@
 			remoteGlobalIDString = C92DB5B02B7538AA00E19C75;
 			remoteInfo = RoohiOS;
 		};
+		C9F392022B7640CD007D5FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C92DB5A92B7538AA00E19C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F391F62B7640CA007D5FFE;
+			remoteInfo = "RoohWatchOS Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9F392042B7640CD007D5FFE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C9F392052B7640CD007D5FFE /* RoohWatchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C92DB5B12B7538AA00E19C75 /* RoohiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoohiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92DB5B42B7538AA00E19C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C92DB5B62B7538AA00E19C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift.swift; sourceTree = "<group>"; };
+		C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
 		C92DB5BD2B7538AC00E19C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92DB5C02B7538AC00E19C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92DB5C22B7538AC00E19C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,10 +89,26 @@
 		C92DB5D12B7538AC00E19C75 /* RoohiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoohiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92DB5D52B7538AC00E19C75 /* RoohiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoohiOSUITests.swift; sourceTree = "<group>"; };
 		C92DB5D72B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoohiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C997F9422B76655B002C929D /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		C997F9442B7665EB002C929D /* String + base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + base64.swift"; sourceTree = "<group>"; };
+		C9BBC4D32B79F38C007E2907 /* WatchConnectivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityProvider.swift; sourceTree = "<group>"; };
+		C9BBC4D62B79F4E0007E2907 /* PhoneConnectivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivityProvider.swift; sourceTree = "<group>"; };
+		C9D54E6B2B782B6E00C7DA26 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
 		C9F391D32B753F55007D5FFE /* CreateProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileModel.swift; sourceTree = "<group>"; };
 		C9F391D62B755EE3007D5FFE /* ImagesArray.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ImagesArray.json; sourceTree = "<group>"; };
 		C9F391D92B755F4B007D5FFE /* AvatarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarService.swift; sourceTree = "<group>"; };
 		C9F391DB2B755F8C007D5FFE /* ProfileAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAvatar.swift; sourceTree = "<group>"; };
+		C9F391DF2B7579F5007D5FFE /* String + base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + base64.swift"; sourceTree = "<group>"; };
+		C9F391E12B757A96007D5FFE /* CreateProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfilePresenter.swift; sourceTree = "<group>"; };
+		C9F391E42B757C26007D5FFE /* CreateProfileConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileConfigurator.swift; sourceTree = "<group>"; };
+		C9F391EA2B757DE5007D5FFE /* AvatarCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionView.swift; sourceTree = "<group>"; };
+		C9F391EC2B757F17007D5FFE /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9F391F12B758119007D5FFE /* NameDescribable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDescribable.swift; sourceTree = "<group>"; };
+		C9F391F72B7640CA007D5FFE /* RoohWatchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RoohWatchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F391F92B7640CA007D5FFE /* RoohWatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoohWatchOSApp.swift; sourceTree = "<group>"; };
+		C9F391FB2B7640CA007D5FFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9F391FD2B7640CD007D5FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9F392002B7640CD007D5FFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +133,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9F391F42B7640CA007D5FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +149,7 @@
 				C92DB5B32B7538AA00E19C75 /* RoohiOS */,
 				C92DB5CA2B7538AC00E19C75 /* RoohiOSTests */,
 				C92DB5D42B7538AC00E19C75 /* RoohiOSUITests */,
+				C9F391F82B7640CA007D5FFE /* RoohWatchOS Watch App */,
 				C92DB5B22B7538AA00E19C75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +160,7 @@
 				C92DB5B12B7538AA00E19C75 /* RoohiOS.app */,
 				C92DB5C72B7538AC00E19C75 /* RoohiOSTests.xctest */,
 				C92DB5D12B7538AC00E19C75 /* RoohiOSUITests.xctest */,
+				C9F391F72B7640CA007D5FFE /* RoohWatchOS Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +168,9 @@
 		C92DB5B32B7538AA00E19C75 /* RoohiOS */ = {
 			isa = PBXGroup;
 			children = (
+				C9F391F02B758106007D5FFE /* Protocols */,
+				C9F391E92B757DCC007D5FFE /* UISystem */,
+				C9F391DE2B7579E3007D5FFE /* Extensions */,
 				C92DB5E42B75394000E19C75 /* App */,
 				C9F391D82B755F0F007D5FFE /* Services */,
 				C92DB5E62B7539A200E19C75 /* Screens */,
@@ -162,11 +227,20 @@
 		C92DB5E72B7539AA00E19C75 /* CreateProfile */ = {
 			isa = PBXGroup;
 			children = (
-				C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift.swift */,
-				C9F391D32B753F55007D5FFE /* CreateProfileModel.swift */,
-				C9F391DB2B755F8C007D5FFE /* ProfileAvatar.swift */,
+				C9F391E82B757CA4007D5FFE /* Models */,
+				C9F391E72B757C8D007D5FFE /* View */,
+				C9F391E62B757C83007D5FFE /* Presenter */,
+				C9F391E32B757C13007D5FFE /* Configurator */,
 			);
 			path = CreateProfile;
+			sourceTree = "<group>";
+		};
+		C9BBC4D52B79F4D4007E2907 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C9BBC4D62B79F4E0007E2907 /* PhoneConnectivityProvider.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		C9F391D52B755EB6007D5FFE /* JsonData */ = {
@@ -181,8 +255,90 @@
 			isa = PBXGroup;
 			children = (
 				C9F391D92B755F4B007D5FFE /* AvatarService.swift */,
+				C9BBC4D32B79F38C007E2907 /* WatchConnectivityProvider.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		C9F391DE2B7579E3007D5FFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391DF2B7579F5007D5FFE /* String + base64.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C9F391E32B757C13007D5FFE /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391E42B757C26007D5FFE /* CreateProfileConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		C9F391E62B757C83007D5FFE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391E12B757A96007D5FFE /* CreateProfilePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C9F391E72B757C8D007D5FFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C92DB5B82B7538AA00E19C75 /* CreateProfileViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C9F391E82B757CA4007D5FFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391D32B753F55007D5FFE /* CreateProfileModel.swift */,
+				C9F391DB2B755F8C007D5FFE /* ProfileAvatar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9F391E92B757DCC007D5FFE /* UISystem */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391EA2B757DE5007D5FFE /* AvatarCollectionView.swift */,
+				C9F391EC2B757F17007D5FFE /* AvatarCollectionViewCell.swift */,
+			);
+			path = UISystem;
+			sourceTree = "<group>";
+		};
+		C9F391F02B758106007D5FFE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C9F391F12B758119007D5FFE /* NameDescribable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C9F391F82B7640CA007D5FFE /* RoohWatchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				C9BBC4D52B79F4D4007E2907 /* Services */,
+				C997F9422B76655B002C929D /* ProfileModel.swift */,
+				C9F391F92B7640CA007D5FFE /* RoohWatchOSApp.swift */,
+				C9F391FB2B7640CA007D5FFE /* ContentView.swift */,
+				C9F391FD2B7640CD007D5FFE /* Assets.xcassets */,
+				C9F391FF2B7640CD007D5FFE /* Preview Content */,
+				C997F9442B7665EB002C929D /* String + base64.swift */,
+				C9D54E6B2B782B6E00C7DA26 /* WatchConnector.swift */,
+			);
+			path = "RoohWatchOS Watch App";
+			sourceTree = "<group>";
+		};
+		C9F391FF2B7640CD007D5FFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9F392002B7640CD007D5FFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,10 +351,12 @@
 				C92DB5AD2B7538AA00E19C75 /* Sources */,
 				C92DB5AE2B7538AA00E19C75 /* Frameworks */,
 				C92DB5AF2B7538AA00E19C75 /* Resources */,
+				C9F392042B7640CD007D5FFE /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C9F392032B7640CD007D5FFE /* PBXTargetDependency */,
 			);
 			name = RoohiOS;
 			productName = RoohiOS;
@@ -241,6 +399,23 @@
 			productReference = C92DB5D12B7538AC00E19C75 /* RoohiOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C9F391F62B7640CA007D5FFE /* RoohWatchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F392062B7640CD007D5FFE /* Build configuration list for PBXNativeTarget "RoohWatchOS Watch App" */;
+			buildPhases = (
+				C9F391F32B7640CA007D5FFE /* Sources */,
+				C9F391F42B7640CA007D5FFE /* Frameworks */,
+				C9F391F52B7640CA007D5FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RoohWatchOS Watch App";
+			productName = "RoohWatchOS Watch App";
+			productReference = C9F391F72B7640CA007D5FFE /* RoohWatchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,6 +437,9 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = C92DB5B02B7538AA00E19C75;
 					};
+					C9F391F62B7640CA007D5FFE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = C92DB5AC2B7538AA00E19C75 /* Build configuration list for PBXProject "RoohiOS" */;
@@ -280,6 +458,7 @@
 				C92DB5B02B7538AA00E19C75 /* RoohiOS */,
 				C92DB5C62B7538AC00E19C75 /* RoohiOSTests */,
 				C92DB5D02B7538AC00E19C75 /* RoohiOSUITests */,
+				C9F391F62B7640CA007D5FFE /* RoohWatchOS Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -309,6 +488,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9F391F52B7640CA007D5FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F392012B7640CD007D5FFE /* Preview Assets.xcassets in Resources */,
+				C9F391FE2B7640CD007D5FFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -316,13 +504,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F391F22B758119007D5FFE /* NameDescribable.swift in Sources */,
 				C9F391DA2B755F4B007D5FFE /* AvatarService.swift in Sources */,
 				C9F391DC2B755F8C007D5FFE /* ProfileAvatar.swift in Sources */,
-				C92DB5B92B7538AA00E19C75 /* CreateProfileViewController.swift.swift in Sources */,
+				C9F391E52B757C26007D5FFE /* CreateProfileConfigurator.swift in Sources */,
+				C92DB5B92B7538AA00E19C75 /* CreateProfileViewController.swift in Sources */,
 				C9F391D42B753F55007D5FFE /* CreateProfileModel.swift in Sources */,
 				C9F391D72B755EE3007D5FFE /* ImagesArray.json in Sources */,
+				C9F391E22B757A96007D5FFE /* CreateProfilePresenter.swift in Sources */,
 				C92DB5B52B7538AA00E19C75 /* AppDelegate.swift in Sources */,
+				C9BBC4D42B79F38C007E2907 /* WatchConnectivityProvider.swift in Sources */,
 				C92DB5B72B7538AA00E19C75 /* SceneDelegate.swift in Sources */,
+				C9F391E02B7579F5007D5FFE /* String + base64.swift in Sources */,
+				C9F391EB2B757DE5007D5FFE /* AvatarCollectionView.swift in Sources */,
+				C9F391ED2B757F17007D5FFE /* AvatarCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +538,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9F391F32B7640CA007D5FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D54E6C2B782B6E00C7DA26 /* WatchConnector.swift in Sources */,
+				C997F9452B7665EB002C929D /* String + base64.swift in Sources */,
+				C9F391FC2B7640CA007D5FFE /* ContentView.swift in Sources */,
+				C9F391FA2B7640CA007D5FFE /* RoohWatchOSApp.swift in Sources */,
+				C9BBC4D72B79F4E0007E2907 /* PhoneConnectivityProvider.swift in Sources */,
+				C997F9432B76655B002C929D /* ProfileModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -355,6 +563,11 @@
 			isa = PBXTargetDependency;
 			target = C92DB5B02B7538AA00E19C75 /* RoohiOS */;
 			targetProxy = C92DB5D22B7538AC00E19C75 /* PBXContainerItemProxy */;
+		};
+		C9F392032B7640CD007D5FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F391F62B7640CA007D5FFE /* RoohWatchOS Watch App */;
+			targetProxy = C9F392022B7640CD007D5FFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -422,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -479,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -492,6 +705,7 @@
 		C92DB5DC2B7538AC00E19C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -503,7 +717,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,6 +734,7 @@
 		C92DB5DD2B7538AC00E19C75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,7 +746,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -621,6 +836,66 @@
 			};
 			name = Release;
 		};
+		C9F392072B7640CD007D5FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoohWatchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZBBJJ3996;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoohWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Dmitriev.RoohiOS;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriev.RoohiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C9F392082B7640CD007D5FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoohWatchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6ZBBJJ3996;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = RoohWatchOS;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Dmitriev.RoohiOS;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dmitriev.RoohiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -656,6 +931,15 @@
 			buildConfigurations = (
 				C92DB5E22B7538AC00E19C75 /* Debug */,
 				C92DB5E32B7538AC00E19C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F392062B7640CD007D5FFE /* Build configuration list for PBXNativeTarget "RoohWatchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F392072B7640CD007D5FFE /* Debug */,
+				C9F392082B7640CD007D5FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

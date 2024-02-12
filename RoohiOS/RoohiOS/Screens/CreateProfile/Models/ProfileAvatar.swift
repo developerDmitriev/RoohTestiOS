@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ProfileAvatar: Decodable {
+struct ProfileAvatar: Codable {
     let name: String
     let base64: String
 }
