@@ -35,6 +35,11 @@ class CreateProfilePresenter {
     init(view: CreateProfileViewController? = nil) {
         self.view = view
         watchConnectionProvider.connect()
+
+        watchConnectionProvider.onDataReceived = { [self] receivedProfileModel in
+            self.profileModel = receivedProfileModel
+            self.view?.updateViewModel(with: profileModel)
+        }
     }
     
     func fetchAvatars(){
@@ -70,7 +75,9 @@ class CreateProfilePresenter {
     
     func sendDataToWatch() {
         guard let data = try? JSONEncoder().encode(profileModel) else {return}
-        watchConnectionProvider.sendMessageData(with: data)
+        watchConnectionProvider.sendMessageData(with: data) { error in
+            view?.sendDataToWatchNotAvaliable()
+        }
     }
     
     func handleReceivedMessageData(_ messageData: Data) {

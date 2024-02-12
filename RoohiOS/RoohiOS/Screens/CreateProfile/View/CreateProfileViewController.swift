@@ -28,6 +28,12 @@ class CreateProfileViewController: UIViewController {
             ageDidUpdate()
         }
     }
+    private var avatarsCollectionView = AvatarCollectionView()
+    private var avatars = [ProfileAvatar]() {
+        didSet {
+            avatarsCollectionView.setupAvatars(with: avatars)
+        }
+    }
     var profileHeight: Int = 0 {
         didSet {
             heightDidUpdate()
@@ -88,13 +94,6 @@ class CreateProfileViewController: UIViewController {
         return weightField
     }()
     
-    private var avatarsCollectionView = AvatarCollectionView()
-    private var avatars = [ProfileAvatar]() {
-        didSet {
-            avatarsCollectionView.setupAvatars(with: avatars)
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemPink
@@ -149,6 +148,21 @@ class CreateProfileViewController: UIViewController {
     
     func updateButtonState(isActive: Bool) {
         continueButton.isEnabled = isActive
+    }
+    
+    func sendDataToWatchNotAvaliable() {
+        let warningVC = WarningViewController(warningDescription: Warnings.sessionNotReachable)
+        warningVC.transitioningDelegate = self
+        warningVC.modalPresentationStyle = .popover
+        present(warningVC, animated: true)
+    }
+    
+    func updateViewModel(with model: CreateProfileModel) {
+        DispatchQueue.main.async {
+            self.profileAge = model.age ?? 404
+            self.profileHeight = model.height ?? 404
+            self.profileWeight = model.weight ?? 404.0
+        }
     }
     
     //TODO: call here presenter filling model methods
@@ -232,4 +246,34 @@ extension CreateProfileViewController: UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textField.text = ""
     }
+}
+
+extension CreateProfileViewController: UIViewControllerTransitioningDelegate {
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        WarningPresentationController(presentedViewController: presented, presenting: presenting ?? source)
+    }
+}
+
+class WarningPresentationController: UIPresentationController {
+    override var shouldPresentInFullscreen: Bool {
+            false
+        }
+    
+    override func presentationTransitionWillBegin() {
+            super.presentationTransitionWillBegin()
+
+            guard let containerView = containerView, let presentedView = presentedView else { return }
+
+        
+            presentedView.translatesAutoresizingMaskIntoConstraints = false
+            containerView.addSubview(presentedView)
+
+            // 4
+            NSLayoutConstraint.activate([
+                    presentedView.bottomAnchor.constraint(equalTo: containerView.bottomAnchor),
+                    presentedView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
+                    presentedView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
+                    presentedView.heightAnchor.constraint( lessThanOrEqualTo: containerView.heightAnchor,
+                                                           constant: -containerView.safeAreaInsets.top)])
+        }
 }

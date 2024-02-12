@@ -15,6 +15,9 @@
 		C92DB5CC2B7538AC00E19C75 /* RoohiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5CB2B7538AC00E19C75 /* RoohiOSTests.swift */; };
 		C92DB5D62B7538AC00E19C75 /* RoohiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5D52B7538AC00E19C75 /* RoohiOSUITests.swift */; };
 		C92DB5D82B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DB5D72B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift */; };
+		C99726672B7A2940003B5991 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99726662B7A2940003B5991 /* Errors.swift */; };
+		C99726692B7A2DB7003B5991 /* WarningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99726682B7A2DB7003B5991 /* WarningViewController.swift */; };
+		C997266B2B7A301F003B5991 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C997266A2B7A301F003B5991 /* Errors.swift */; };
 		C997F9432B76655B002C929D /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C997F9422B76655B002C929D /* ProfileModel.swift */; };
 		C997F9452B7665EB002C929D /* String + base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = C997F9442B7665EB002C929D /* String + base64.swift */; };
 		C9BBC4D42B79F38C007E2907 /* WatchConnectivityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BBC4D32B79F38C007E2907 /* WatchConnectivityProvider.swift */; };
@@ -89,6 +92,9 @@
 		C92DB5D12B7538AC00E19C75 /* RoohiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoohiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92DB5D52B7538AC00E19C75 /* RoohiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoohiOSUITests.swift; sourceTree = "<group>"; };
 		C92DB5D72B7538AC00E19C75 /* RoohiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoohiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C99726662B7A2940003B5991 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		C99726682B7A2DB7003B5991 /* WarningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningViewController.swift; sourceTree = "<group>"; };
+		C997266A2B7A301F003B5991 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		C997F9422B76655B002C929D /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		C997F9442B7665EB002C929D /* String + base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + base64.swift"; sourceTree = "<group>"; };
 		C9BBC4D32B79F38C007E2907 /* WatchConnectivityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityProvider.swift; sourceTree = "<group>"; };
@@ -201,6 +207,7 @@
 			children = (
 				C92DB5B42B7538AA00E19C75 /* AppDelegate.swift */,
 				C92DB5B62B7538AA00E19C75 /* SceneDelegate.swift */,
+				C99726662B7A2940003B5991 /* Errors.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -220,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				C92DB5E72B7539AA00E19C75 /* CreateProfile */,
+				C99726682B7A2DB7003B5991 /* WarningViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				C9BBC4D62B79F4E0007E2907 /* PhoneConnectivityProvider.swift */,
+				C997266A2B7A301F003B5991 /* Errors.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -505,6 +514,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F391F22B758119007D5FFE /* NameDescribable.swift in Sources */,
+				C99726672B7A2940003B5991 /* Errors.swift in Sources */,
 				C9F391DA2B755F4B007D5FFE /* AvatarService.swift in Sources */,
 				C9F391DC2B755F8C007D5FFE /* ProfileAvatar.swift in Sources */,
 				C9F391E52B757C26007D5FFE /* CreateProfileConfigurator.swift in Sources */,
@@ -514,6 +524,7 @@
 				C9F391E22B757A96007D5FFE /* CreateProfilePresenter.swift in Sources */,
 				C92DB5B52B7538AA00E19C75 /* AppDelegate.swift in Sources */,
 				C9BBC4D42B79F38C007E2907 /* WatchConnectivityProvider.swift in Sources */,
+				C99726692B7A2DB7003B5991 /* WarningViewController.swift in Sources */,
 				C92DB5B72B7538AA00E19C75 /* SceneDelegate.swift in Sources */,
 				C9F391E02B7579F5007D5FFE /* String + base64.swift in Sources */,
 				C9F391EB2B757DE5007D5FFE /* AvatarCollectionView.swift in Sources */,
@@ -548,6 +559,7 @@
 				C9F391FA2B7640CA007D5FFE /* RoohWatchOSApp.swift in Sources */,
 				C9BBC4D72B79F4E0007E2907 /* PhoneConnectivityProvider.swift in Sources */,
 				C997F9432B76655B002C929D /* ProfileModel.swift in Sources */,
+				C997266B2B7A301F003B5991 /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

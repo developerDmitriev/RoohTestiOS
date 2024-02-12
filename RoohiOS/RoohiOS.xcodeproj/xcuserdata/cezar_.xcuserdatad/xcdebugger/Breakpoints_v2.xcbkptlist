@@ -118,22 +118,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C01A48CF-F1A0-4703-A008-C99F252FE47B"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RoohWatchOS Watch App/ProfileModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "==(lhs:rhs:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0B47F215-266E-4552-B89E-669462CDAF28"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -157,8 +141,8 @@
             filePath = "RoohiOS/Services/WatchConnectivityProvider.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "connect()"
             landmarkType = "7">
             <Locations>
@@ -192,6 +176,36 @@
                   endingLineNumber = "23"
                   offsetFromSymbolStart = "220">
                </Location>
+               <Location
+                  uuid = "B069DCA5-42C4-4680-B406-B29D97D5D7E0 - f84d4c8c2b56de05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.connect() -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "B069DCA5-42C4-4680-B406-B29D97D5D7E0 - f84d4c8c2b56de2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.connect() -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "220">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -205,8 +219,8 @@
             filePath = "RoohiOS/Services/WatchConnectivityProvider.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "session(_:activationDidCompleteWith:error:)"
             landmarkType = "7">
             <Locations>
@@ -240,6 +254,36 @@
                   endingLineNumber = "34"
                   offsetFromSymbolStart = "252">
                </Location>
+               <Location
+                  uuid = "D03E7E07-1AE1-4635-9DC1-A52D95D70446 - 7d113d4216fb656f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.session(_: __C.WCSession, activationDidCompleteWith: __C.WCSessionActivationState, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "D03E7E07-1AE1-4635-9DC1-A52D95D70446 - 7d113d4216fb65ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.session(_: __C.WCSession, activationDidCompleteWith: __C.WCSessionActivationState, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "252">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -253,8 +297,8 @@
             filePath = "RoohiOS/Services/WatchConnectivityProvider.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "sessionDidBecomeInactive(_:)"
             landmarkType = "7">
             <Locations>
@@ -288,6 +332,36 @@
                   endingLineNumber = "38"
                   offsetFromSymbolStart = "168">
                </Location>
+               <Location
+                  uuid = "2EF24367-62FD-4707-9E4C-EB986443F8E7 - 5b22b5e770ba040"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.sessionDidBecomeInactive(__C.WCSession) -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "2EF24367-62FD-4707-9E4C-EB986443F8E7 - 5b22b5e770ba1a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.sessionDidBecomeInactive(__C.WCSession) -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "168">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -301,8 +375,8 @@
             filePath = "RoohiOS/Services/WatchConnectivityProvider.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "session(_:activationDidCompleteWith:error:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -326,22 +400,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E1E749B0-287B-4EC9-BFA8-92A05AE52C05"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RoohiOS/Services/WatchConnectivityProvider.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "sendMessage()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "7E9736CB-6047-47CE-9EA1-887AD9EFD21C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -349,28 +407,28 @@
             filePath = "RoohiOS/Screens/CreateProfile/Presenter/CreateProfilePresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "sendDataToWatch()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "7E9736CB-6047-47CE-9EA1-887AD9EFD21C - 920295d9790073a5"
+                  uuid = "7E9736CB-6047-47CE-9EA1-887AD9EFD21C - 42a91b8cee0ecfcb"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "RoohiOS.CreateProfilePresenter.sendDataToWatch() -&gt; ()"
+                  symbolName = "closure #1 (Swift.Error) -&gt; () in RoohiOS.CreateProfilePresenter.sendDataToWatch() -&gt; ()"
                   moduleName = "RoohiOS"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Screens/CreateProfile/Presenter/CreateProfilePresenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
-                  offsetFromSymbolStart = "28">
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "40">
                </Location>
                <Location
-                  uuid = "7E9736CB-6047-47CE-9EA1-887AD9EFD21C - 920295d9790073c4"
+                  uuid = "7E9736CB-6047-47CE-9EA1-887AD9EFD21C - 920295d97900736f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -380,9 +438,24 @@
                   urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Screens/CreateProfile/Presenter/CreateProfilePresenter.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
                   offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "7E9736CB-6047-47CE-9EA1-887AD9EFD21C - 42a91b8cee0ece2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; () in RoohiOS.CreateProfilePresenter.sendDataToWatch() -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Screens/CreateProfile/Presenter/CreateProfilePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "40">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -397,26 +470,57 @@
             filePath = "RoohiOS/Services/WatchConnectivityProvider.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "sendMessageData(with:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5DF2464F-2C29-4308-8E01-FFF4AE0AAD63"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RoohiOS/Services/WatchConnectivityProvider.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
             endingLineNumber = "68"
-            landmarkName = "sendMessageData(with:)"
+            landmarkName = "sendMessageData(with:errorHandler:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1878CB6-4953-489A-9076-5FED4240E6C4 - eb524b5cb5c43780"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.sendMessageData(with: Foundation.Data) -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "B1878CB6-4953-489A-9076-5FED4240E6C4 - e6e0a75eef6d5266"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.sendMessageData(with: Foundation.Data, errorHandler: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "B1878CB6-4953-489A-9076-5FED4240E6C4 - e6e0a75eef6d5201"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.WatchConnectivityProvider.sendMessageData(with: Foundation.Data, errorHandler: (Swift.Error) -&gt; ()) -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Services/WatchConnectivityProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -465,6 +569,118 @@
             endingLineNumber = "50"
             landmarkName = "session(_:didReceiveMessageData:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40E8D9CE-1A16-43E3-A7C9-9371F5C68963"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoohiOS/Screens/CreateProfile/View/CreateProfileViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "sendDataToWatchNotAvaliable()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40E8D9CE-1A16-43E3-A7C9-9371F5C68963 - 5e5bb48562f356e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.CreateProfileViewController.sendDataToWatchNotAvaliable() -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Screens/CreateProfile/View/CreateProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "40E8D9CE-1A16-43E3-A7C9-9371F5C68963 - 5e5bb48562f356e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoohiOS.CreateProfileViewController.sendDataToWatchNotAvaliable() -&gt; ()"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Screens/CreateProfile/View/CreateProfileViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "340694C9-E9FA-45DE-9959-C4DB126AE2C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoohWatchOS Watch App/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "sendProfileModelToPhone()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D77F6D5-E83B-4DE1-8871-73E3151F34F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoohiOS/Screens/CreateProfile/Presenter/CreateProfilePresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "init(view:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2D77F6D5-E83B-4DE1-8871-73E3151F34F3 - 24d79d40b7bc9089"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RoohiOS.CreateProfileModel) -&gt; () in RoohiOS.CreateProfilePresenter.init(view: Swift.Optional&lt;RoohiOS.CreateProfileViewController&gt;) -&gt; RoohiOS.CreateProfilePresenter"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Screens/CreateProfile/Presenter/CreateProfilePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2D77F6D5-E83B-4DE1-8871-73E3151F34F3 - 24d79d40b7bc9089"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RoohiOS.CreateProfileModel) -&gt; () in RoohiOS.CreateProfilePresenter.init(view: Swift.Optional&lt;RoohiOS.CreateProfileViewController&gt;) -&gt; RoohiOS.CreateProfilePresenter"
+                  moduleName = "RoohiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cezar_/Desktop/RoohTestApp/iOS/RoohTestiOS/RoohiOS/RoohiOS/Screens/CreateProfile/Presenter/CreateProfilePresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

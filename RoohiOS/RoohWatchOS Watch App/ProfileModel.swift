@@ -45,31 +45,3 @@ struct ProfileAvatar: Codable, Equatable {
         lhs.name == rhs.name
     }
 }
-
-//extension Int: BinaryFloatingPoint {
-//    public typealias RawSignificand = <#type#>
-//    
-//    public typealias RawExponent = <#type#>
-//    
-//    public static var exponentBitCount: Int {
-//        <#code#>
-//    }
-//    
-//    public static var significandBitCount: Int {
-//        <#code#>
-//    }
-//    
-//    public var binade: Int {
-//        <#code#>
-//    }
-//    
-//    public var significandWidth: Int {
-//        <#code#>
-//    }
-//    
-//    public typealias FloatLiteralType = <#type#>
-//    
-//    public typealias Exponent = <#type#>
-//    
-//    
-//}

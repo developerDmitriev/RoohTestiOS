@@ -9,6 +9,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var isModelChanged = false
     @State var profileModel = ProfileModel(age: 0, height: 0, weight: 0)
+    @State var isDataSent = false
     let phoneConnectionProvider = PhoneConnectivityProvider()
     
     var body: some View {
@@ -45,13 +46,13 @@ struct ContentView: View {
                                           isHapticFeedbackEnabled: true)
             })
             Spacer()
-            Button {
-              //  DataSenderManager.shared.sendToPhone(profileModel)
-            } label: {
-                Text("Send to iPhone")
+            Button("Send to iPhone") {
+                _ = sendProfileModelToPhone()
             }
+            .alert(isPresented: $isDataSent, content: {
+                isDataSent ? Alert(title: Text("Data sent")) : Alert(title: Text("Data haven't sent"))
+            })
             .disabled(!isModelChanged)
-            
             .onChange(of: profileModel) { _ in
                 self.isModelChanged = true
             }
@@ -62,6 +63,21 @@ struct ContentView: View {
                 }
             }
         }
+    }
+    
+    func sendProfileModelToPhone() -> Bool {
+        var isSent = false
+        
+        defer {
+            isDataSent = isSent
+        }
+        
+        guard let data = try? JSONEncoder().encode(profileModel) else { return isSent}
+        phoneConnectionProvider.sendMessageData(with: data) { error in
+            return
+        }
+        isSent = true
+        return isSent
     }
 }
 

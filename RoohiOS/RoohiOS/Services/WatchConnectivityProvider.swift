@@ -12,6 +12,7 @@ import OSLog
 final class WatchConnectivityProvider: NSObject, WCSessionDelegate {
     private let session: WCSession
     let logger = Logger()
+    var onDataReceived: ((CreateProfileModel) -> Void)?
     
     init(session: WCSession = .default) {
         self.session = session
@@ -63,10 +64,23 @@ final class WatchConnectivityProvider: NSObject, WCSessionDelegate {
         }
     }
     
-    func sendMessageData(with data: Data) {
+    func sendMessageData(with data: Data, errorHandler: (Error) -> Void) {
         if session.isReachable {
-            let message = ["Message":"Hello"]
             session.sendMessageData(data, replyHandler: nil)
+        } else {
+            let error = Errors.sessionIsntReachable
+            logger.debug("session isn't reachable")
+            errorHandler(error)
+        }
+    }
+    
+    func session(_ session: WCSession, didReceiveMessageData messageData: Data) {
+        do {
+            let decoder = JSONDecoder()
+            let receivedProfileModel = try decoder.decode(CreateProfileModel.self, from: messageData)
+            onDataReceived?(receivedProfileModel)
+        } catch {
+            logger.debug("Failed to decode message data: \(error)")
         }
     }
 

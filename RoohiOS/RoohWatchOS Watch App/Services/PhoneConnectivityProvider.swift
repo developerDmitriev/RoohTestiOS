@@ -50,4 +50,15 @@ final class PhoneConnectivityProvider: NSObject, WCSessionDelegate {
             logger.debug("Failed to decode message data: \(error)")
         }
     }
+    
+    func sendMessageData(with data: Data, errorHandler: (Error) -> Void) {
+        if session.isReachable {
+            session.sendMessageData(data, replyHandler: nil)
+        } else {
+            let error = Errors.sessionIsntReachable
+            logger.debug("session isn't reachable")
+            errorHandler(error)
+        }
+    }
+    
 }
